@@ -1,7 +1,7 @@
 
 from rest_framework.serializers import ModelSerializer
 from .models import Contact
-# test
+# test 1
 
 
 class ContactSerializer(ModelSerializer):
