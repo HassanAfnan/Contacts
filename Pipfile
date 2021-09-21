@@ -1,16 +1,19 @@
 [[source]]
+name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
-name = "pypi"
+
+[dev-packages]
 
 [packages]
 django = "*"
 djangorestframework = "*"
 pyjwt = "*"
+drf-yasg = "*"
 gunicorn = "*"
+psycopg2 = "==2.7.7"
 django-heroku = "*"
-
-[dev-packages]
+django-cors-headers = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
